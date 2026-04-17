@@ -64,6 +64,7 @@ footer {
   background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), url("../images/footer-jeffrey-eisen-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   padding: 80px 0;
 }
