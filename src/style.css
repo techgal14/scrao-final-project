@@ -109,6 +109,7 @@ footer a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
 }
 
 .footer-note {
@@ -158,4 +159,18 @@ footer a:hover {
     margin: 10px;
   }
 
+  footer {
+    padding: 30px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+  
+  .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  text-align: center;
+}
 }
