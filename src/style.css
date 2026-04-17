@@ -1,0 +1,35 @@
+:root {
+--primary-font-family: "Playfair Display", serif;
+--secondary-font-family: "Caveat", cursive;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+h1 {
+  font-family: var(--secondary-font-family);
+  font-size: 94px;
+  line-height: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.coder {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    font-weight: bold;
+}
