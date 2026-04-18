@@ -168,11 +168,13 @@ footer a {
   height: 100px;
 }
 
-.grid-main {
+.grid {
   display: grid;
+  grid-gap: 64px;
+}
+
+.grid-main {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
-  padding: 75px;
 }
 
 .grid-locations {
@@ -204,9 +206,7 @@ footer a {
 }
 
 .grid-footer {
-  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 50px;
 }
 
 .footer-note {
