@@ -334,6 +334,7 @@ footer a:hover {
 
   .card-body {
     padding: 15px 0;
+    text-align: center;
   }
 
   .card-footer {
