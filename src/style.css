@@ -163,11 +163,6 @@ footer a {
   display: block;
 }
 
-.test {
-  width: 100px;
-  height: 100px;
-}
-
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -197,11 +192,13 @@ footer a {
 .btn {
   display: block;
   color: white;
-  background: #462CB3;
+  background: #199d8a;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 3px;
+  text-decoration: none;
+  border-radius: 8px;
   padding: 16px;
 }
 
