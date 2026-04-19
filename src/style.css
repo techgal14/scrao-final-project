@@ -101,7 +101,7 @@ main h4 {
 
 main h5 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
   color: var(--primary-color);
   margin: 0;
@@ -160,8 +160,11 @@ footer a {
 
 .image-responsive {
   width: 100%;
-  height: 100%; 
-  display: block;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .grid {
@@ -250,10 +253,6 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  h2 {
-    padding-top: 10px;
-  }
-
   h3 {
     padding-bottom: 10px;
   }
@@ -268,15 +267,15 @@ footer a:hover {
 
   header h1 {
     font-size: 60px;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   header h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   header p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 10px;
   }
 
@@ -285,8 +284,7 @@ footer a:hover {
   }
 
   main h3 {
-    font-size: 26px;
-    padding-top: 8px;
+    font-size: 28px;
   }
 
   main p {
@@ -302,18 +300,20 @@ footer a:hover {
   }
   
   section.secondary {
+    background: white;
     padding-top: 0;
     padding-bottom: 30px;
   }
 
   section.main {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
   }
+
   .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
   }
 
   .grid-main {
@@ -330,6 +330,10 @@ footer a:hover {
 
   .card-header img {
     display: none;
+  }
+
+  .card-body {
+    padding: 15px 0;
   }
 
   .card-footer {
