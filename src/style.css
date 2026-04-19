@@ -180,6 +180,27 @@ footer a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.video-grid-2-columns {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.video-grid-3-columns {
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.video {
+  margin: 0 auto;
+  aspect-ratio: 21 / 9;
+  width: 100%;
+}
+
 .card {
   background: white;
   margin: 30px 0;
@@ -210,7 +231,7 @@ footer a {
 .btn {
   display: block;
   color: white;
-  background: #199d8a;
+  background: #138487;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 700;
@@ -343,5 +364,10 @@ footer a:hover {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .video-grid-2-columns,
+  .video-grid-3-columns {
+    grid-template-columns: 1fr;
   }
 }
