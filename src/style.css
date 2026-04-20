@@ -397,7 +397,7 @@ footer a:hover {
     aspect-ratio: 16/9;
   }
   section.tertiary h3 {
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 
   .video-grid-2-columns,
