@@ -112,6 +112,10 @@ section.secondary {
   text-align: center;
 } 
 
+section.tertiary {
+  text-align: center;
+}
+
 footer {
   background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), url("../images/footer-jeffrey-eisen-unsplash.jpg");
   background-repeat: no-repeat;
@@ -328,6 +332,10 @@ footer a:hover {
 
   section.main {
     padding-bottom: 30px;
+  }
+
+  section.tertiary {
+    padding-top: 30px;
   }
 
   .grid {
