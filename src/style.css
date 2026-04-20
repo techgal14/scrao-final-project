@@ -396,6 +396,9 @@ footer a:hover {
   .embed {
     aspect-ratio: 16/9;
   }
+  section.tertiary h3 {
+  padding-bottom: 0;
+}
 
   .video-grid-2-columns,
   .video-grid-3-columns {
